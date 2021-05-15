@@ -1,8 +1,8 @@
 # URL Shortner
 
-An basic URL Shortner application written in Nodejs. It uses ExpressJS, Mongoose, EJS, ShortId and http-errors packages.
+A basic URL Shortner application written in Nodejs. It uses ExpressJS, Mongoose, EJS, ShortId and http-errors packages.
 
-The application generates short URL for any long URl provided and if the URL was generated previously it resturns the same short URL insteaed of creating a new one. 
+The application generates a short URL for any long URL provided and if the URL was generated previously it returns the same short URL instead of creating a new one.
 
 ## Installation
 
