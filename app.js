@@ -27,6 +27,10 @@ app.get('/', async (req, res, next) => {
     res.render('index')
 })
 
+app.get('/new', async (req, res, next) => {
+    res.render('index2')
+})
+
 app.post('/', async (req, res, next) => {
     try {
         const { url } = req.body
